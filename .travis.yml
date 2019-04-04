@@ -23,6 +23,8 @@ matrix:
       postgresql: "9.1"
       apt:
         packages:
+        - postgresql-9.1
+        - postgresql-client-9.1
         - unixodbc
         - unixodbc-dev
         - odbc-postgresql
