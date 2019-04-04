@@ -20,7 +20,7 @@ matrix:
     - DB=postgresql
     - CONN_STR='DRIVER={PostgreSQL ANSI};SERVER=localhost;PORT=5432;DATABASE=odbc_test;UID=postgres;'
     global:
-      - PGPORT=5433
+      - PGPORT=5432
     addons:
       postgresql: "9.1"
       apt:
