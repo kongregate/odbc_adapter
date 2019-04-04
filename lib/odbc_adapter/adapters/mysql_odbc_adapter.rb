@@ -6,7 +6,7 @@ module ODBCAdapter
       PRIMARY_KEY = 'INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY'.freeze
 
       class BindSubstitution < Arel::Visitors::MySQL
-        include Arel::Visitors::Visitor
+        include Arel::Visitors
       end
 
       def arel_visitor
